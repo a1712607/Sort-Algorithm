@@ -16,12 +16,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int input[] = { 89, 56, 84, 12, 54, 25, 25, 85, 35, 65 };
+       
         
-        int[] output=bubble_sort(input);
-        
-        for(int i=0;i<output.length;i++){
-            out.print(output[i]+" ");
-        }
     }
 }
