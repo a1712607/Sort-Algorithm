@@ -26,30 +26,30 @@ public class MergeSort {
         while (x <= m && y <= j && k < j - i + 1) {
             if (a[y] < a[x]) {
                 s[k] = a[y];
-                y++;
                 k++;
+                y++;
             }
 
             else if(a[y] >= a[x]){
                 s[k] = a[x];
-                x++;
                 k++;
+                x++;
             }
         }
         
         if (x > m) {
             while (k < j - i + 1 && y <= j) {
                 s[k] = a[y];
-                y++;
                 k++;
+                y++;
             }
         }
         
         else {
             while (k < j - i + 1 && x <= m) {
                 s[k] = a[x];
-                x++;
                 k++;
+                x++;
             }
         }
         
